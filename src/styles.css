@@ -1,0 +1,26 @@
+:root {
+  --main-color: rgb(20, 40, 67);
+  --secondary-color: rgb(63, 112, 137);
+  --background-gradient: linear-gradient(
+    179.4deg,
+    rgb(253, 240, 233) 2.2%,
+    rgb(255, 194, 203) 96.2%
+  );
+}
+
+body {
+  margin: 0 auto;
+  max-width: 900px;
+  height: 800px;
+  background: var(--background-gradient);
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 200;
+}
+
+h1 {
+  color: var(--main-color);
+  font-size: 64px;
+  font-weight: 200;
+  line-height: 1.5;
+}
