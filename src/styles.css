@@ -24,3 +24,24 @@ h1 {
   font-weight: 200;
   line-height: 1.5;
 }
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--secondary-color);
+}
+
+.croissant-pic {
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.mail-link {
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.mail-link:hover {
+  text-decoration: underline;
+}
