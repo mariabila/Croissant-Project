@@ -44,4 +44,20 @@ p {
 
 .mail-link:hover {
   text-decoration: underline;
+  margin-bottom: 25px;
+}
+
+.nav {
+  margin: 25px 35px;
+}
+
+.navigation-link {
+  color: var(--main-color);
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0 10px;
+  padding: 10px 5px;
+  border: 1px solid var(--secondary-color);
+  border-radius: 5px;
+  background-color: rgba(63, 112, 137, 0.3);
 }
